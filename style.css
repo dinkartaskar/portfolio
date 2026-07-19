@@ -45,3 +45,10 @@ nav{
     gap:20px;
     flex-wrap:wrap;
 }
+.hero img{
+    transition:0.3s;
+}
+
+.hero img:hover{
+    transform:scale(1.05);
+    }
