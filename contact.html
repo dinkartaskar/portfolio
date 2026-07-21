@@ -40,22 +40,17 @@ Chat on WhatsApp
   <div class="card">
 
 <h2>📞 Contact Me</h2>
+<form action="https://formsubmit.co/dinkarlic@gmail.com" method="POST">
 
-<input type="text" id="name" placeholder="Your Name"><br><br>
+<input type="text" name="name" placeholder="Your Name" required>
 
-<input type="email" id="email" placeholder="Your Email"><br><br>
+<input type="email" name="email" placeholder="Your Email" required>
 
-<textarea id="message" placeholder="Your Message"></textarea><br><br>
+<textarea name="message" placeholder="Your Message" required></textarea>
 
-<button onclick="sendMessage()">Send Message</button>
+<button type="submit">📨 Send Message</button>
 
-<p id="status"></p>
-
-</div>
-
-<script src="script.js"></script>
-
-</div>
+</form>
 
 </body>
   
