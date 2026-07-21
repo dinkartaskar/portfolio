@@ -82,3 +82,11 @@ footer{
 .btn:hover{
     background:#1976D2;
     }
+.card{
+    background:white;
+    max-width:500px;
+    margin:40px auto;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
