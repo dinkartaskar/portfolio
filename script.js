@@ -13,3 +13,6 @@ document.getElementById("status").innerHTML=
 "✅ Thank you, "+name+"! Your message has been received.";
 
 }
+function toggleTheme() {
+    document.body.classList.toggle("dark");
+}
