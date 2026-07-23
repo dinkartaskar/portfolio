@@ -125,3 +125,23 @@ cursor:pointer;
 .dark a{
     color:#4FC3F7;
     }
+@media (max-width: 768px) {
+
+    nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero{
+        padding:20px;
+    }
+
+    .hero img{
+        width:120px;
+        height:120px;
+    }
+
+    .card{
+        margin:15px;
+    }
+}
